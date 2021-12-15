@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* First Section */
+
+.split-top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 6.5rem;
+    line-height: 1.2;
+    padding: 5rem 9.8rem 10rem;
+}
+
+.awesome {
+    margin-left: 10.5rem;
+    display: flex;
+    flex-direction: column;
+    width: min(28%, 70.5rem);
+}
+
+.text {
+    margin-top: -45px;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    margin-right: 10rem;
+    margin-top: 2rem;
+    background: #6b737d;
+    width: 40rem;
+    height: 16rem;
+    font-size: 20px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9FAF8;
+    width: 9rem;
+    padding: 8px;
+    border: hidden;
+}
+
+/* Second Section */
+
+.second-title {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+span {
+    max-width: 200px;
+}
+
+.bg-light {
+    padding-bottom: 5rem;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    width: 9.375rem;
+
+}
+
+/* Inspiring Quote From Thor */
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 47%;
+    height: 7rem;
+    margin: auto;
+    padding: 5rem 2rem .01rem;
+    text-align: left;
+    max-width: 50rem;
+}
+
+.thor {
+    display: flex;
+    justify-content: center;
+    margin-left: 31.25rem;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* Call to Action! */
+
+.split-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    line-height: 0.9;
+}
+
+.text-bottom {
+    margin-top: -2rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.border {
+    font-size: 20px;
+    color: #F9FAF8;
+    border-radius: 8px;
+    border: solid;
+}
+
+.bg-blue {
+    width: 72.5%;
+    margin-left: 14.75rem;
+}
+
+.container {
+    padding: 7rem;
+}
+
+/* Footer */
+
+footer {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-dark-footer {
+    padding: 2.5rem;
+}
+
+/* Font, Backgrounds, etc */
+
+
+header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+h3 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-dark-footer,
+.bg-dark {
+    background: #1F2937;
+}
+
+.bg-grey {
+    background: #E5E7EB;
+    padding: 5rem;
+}
+
+button,
+.bg-blue {
+    background: #3882F6;
+    border-radius: 8px;
+}
+
+a,
+.text-bottom,
+.text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
